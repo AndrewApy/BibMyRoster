@@ -192,6 +192,7 @@
             this.outputFileNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.outputFileNameTextBox.TabIndex = 7;
             this.outputFileNameTextBox.Text = "Output file name...";
+            this.outputFileNameTextBox.TextChanged += new System.EventHandler(this.outputFileNameTextBox_TextChanged);
             // 
             // mcvyoFileDialog
             // 

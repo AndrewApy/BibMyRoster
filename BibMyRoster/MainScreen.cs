@@ -98,5 +98,6 @@ namespace BibMyRoster
             //success dialogue
             mergeButton.Text = "Success!";
         }
+
     }
 }
