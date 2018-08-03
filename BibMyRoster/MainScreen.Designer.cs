@@ -36,10 +36,10 @@
             this.mcvyoSelectionButton = new System.Windows.Forms.Button();
             this.directAthleticsSelectionButton = new System.Windows.Forms.Button();
             this.outputFolderSelectionButton = new System.Windows.Forms.Button();
-            this.mergeButton = new System.Windows.Forms.Button();
             this.mcvyoSelectionLabel = new System.Windows.Forms.Label();
             this.directAthleticsSelectionLabel = new System.Windows.Forms.Label();
             this.outputFolderSelectionLabel = new System.Windows.Forms.Label();
+            this.mergeButton = new System.Windows.Forms.Button();
             this.outputFileNameTextBox = new System.Windows.Forms.TextBox();
             this.outputFolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.mcvyoFileDialog = new System.Windows.Forms.OpenFileDialog();
@@ -67,7 +67,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(497, 281);
+            this.tabPage1.Size = new System.Drawing.Size(332, 163);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Bib No. Assignment";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -128,7 +128,7 @@
             this.directAthleticsSelectionButton.Name = "directAthleticsSelectionButton";
             this.directAthleticsSelectionButton.Size = new System.Drawing.Size(154, 23);
             this.directAthleticsSelectionButton.TabIndex = 1;
-            this.directAthleticsSelectionButton.Text = "Select DirectAthleticsButton";
+            this.directAthleticsSelectionButton.Text = "Select DirectAthletics export";
             this.directAthleticsSelectionButton.UseVisualStyleBackColor = true;
             this.directAthleticsSelectionButton.Click += new System.EventHandler(this.directAthleticsSelectionButton_Click);
             // 
@@ -142,16 +142,6 @@
             this.outputFolderSelectionButton.Text = "Select output folder";
             this.outputFolderSelectionButton.UseVisualStyleBackColor = true;
             this.outputFolderSelectionButton.Click += new System.EventHandler(this.outputFolderSelectionButton_Click);
-            // 
-            // mergeButton
-            // 
-            this.mergeButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.mergeButton.Location = new System.Drawing.Point(163, 119);
-            this.mergeButton.Name = "mergeButton";
-            this.mergeButton.Size = new System.Drawing.Size(154, 23);
-            this.mergeButton.TabIndex = 3;
-            this.mergeButton.Text = "Merge!";
-            this.mergeButton.UseVisualStyleBackColor = true;
             // 
             // mcvyoSelectionLabel
             // 
@@ -182,6 +172,17 @@
             this.outputFolderSelectionLabel.Size = new System.Drawing.Size(105, 13);
             this.outputFolderSelectionLabel.TabIndex = 6;
             this.outputFolderSelectionLabel.Text = "You have selected...";
+            // 
+            // mergeButton
+            // 
+            this.mergeButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.mergeButton.Location = new System.Drawing.Point(163, 119);
+            this.mergeButton.Name = "mergeButton";
+            this.mergeButton.Size = new System.Drawing.Size(154, 23);
+            this.mergeButton.TabIndex = 3;
+            this.mergeButton.Text = "Merge!";
+            this.mergeButton.UseVisualStyleBackColor = true;
+            this.mergeButton.Click += new System.EventHandler(this.mergeButton_Click);
             // 
             // outputFileNameTextBox
             // 
