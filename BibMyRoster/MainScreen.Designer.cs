@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
+            this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -40,20 +41,20 @@
             this.directAthleticsSelectionLabel = new System.Windows.Forms.Label();
             this.outptuFolderSelectionLabel = new System.Windows.Forms.Label();
             this.outptuFileNameTextBox = new System.Windows.Forms.TextBox();
-            this.tabControl1.SuspendLayout();
+            this.tabControl.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tabControl
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(13, 13);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(551, 329);
-            this.tabControl1.TabIndex = 0;
+            this.tabControl.Controls.Add(this.tabPage1);
+            this.tabControl.Controls.Add(this.tabPage2);
+            this.tabControl.Location = new System.Drawing.Point(13, 13);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(375, 211);
+            this.tabControl.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -62,7 +63,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(543, 303);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Bib No. Assignment";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
@@ -71,9 +72,9 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(543, 303);
+            this.tabPage2.Size = new System.Drawing.Size(367, 185);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "mcvyo and DirectAthletics Merge";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
@@ -96,15 +97,15 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(531, 291);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(355, 173);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // mcvyoSelectionButton
             // 
             this.mcvyoSelectionButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.mcvyoSelectionButton.Location = new System.Drawing.Point(3, 24);
+            this.mcvyoSelectionButton.Location = new System.Drawing.Point(3, 10);
             this.mcvyoSelectionButton.Name = "mcvyoSelectionButton";
-            this.mcvyoSelectionButton.Size = new System.Drawing.Size(259, 23);
+            this.mcvyoSelectionButton.Size = new System.Drawing.Size(171, 23);
             this.mcvyoSelectionButton.TabIndex = 0;
             this.mcvyoSelectionButton.Text = "Select mcvyo csv export";
             this.mcvyoSelectionButton.UseVisualStyleBackColor = true;
@@ -112,9 +113,9 @@
             // directAthleticsSelectionButton
             // 
             this.directAthleticsSelectionButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.directAthleticsSelectionButton.Location = new System.Drawing.Point(3, 96);
+            this.directAthleticsSelectionButton.Location = new System.Drawing.Point(3, 53);
             this.directAthleticsSelectionButton.Name = "directAthleticsSelectionButton";
-            this.directAthleticsSelectionButton.Size = new System.Drawing.Size(259, 23);
+            this.directAthleticsSelectionButton.Size = new System.Drawing.Size(171, 23);
             this.directAthleticsSelectionButton.TabIndex = 1;
             this.directAthleticsSelectionButton.Text = "Select DirectAthleticsButton";
             this.directAthleticsSelectionButton.UseVisualStyleBackColor = true;
@@ -122,9 +123,9 @@
             // outputFolderSelectionButton
             // 
             this.outputFolderSelectionButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.outputFolderSelectionButton.Location = new System.Drawing.Point(3, 168);
+            this.outputFolderSelectionButton.Location = new System.Drawing.Point(3, 96);
             this.outputFolderSelectionButton.Name = "outputFolderSelectionButton";
-            this.outputFolderSelectionButton.Size = new System.Drawing.Size(259, 23);
+            this.outputFolderSelectionButton.Size = new System.Drawing.Size(171, 23);
             this.outputFolderSelectionButton.TabIndex = 2;
             this.outputFolderSelectionButton.Text = "Select output folder";
             this.outputFolderSelectionButton.UseVisualStyleBackColor = true;
@@ -132,9 +133,9 @@
             // mergeButton
             // 
             this.mergeButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.mergeButton.Location = new System.Drawing.Point(3, 242);
+            this.mergeButton.Location = new System.Drawing.Point(3, 139);
             this.mergeButton.Name = "mergeButton";
-            this.mergeButton.Size = new System.Drawing.Size(259, 23);
+            this.mergeButton.Size = new System.Drawing.Size(171, 23);
             this.mergeButton.TabIndex = 3;
             this.mergeButton.Text = "Merge!";
             this.mergeButton.UseVisualStyleBackColor = true;
@@ -143,7 +144,7 @@
             // 
             this.mcvyoSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.mcvyoSelectionLabel.AutoSize = true;
-            this.mcvyoSelectionLabel.Location = new System.Drawing.Point(268, 29);
+            this.mcvyoSelectionLabel.Location = new System.Drawing.Point(180, 15);
             this.mcvyoSelectionLabel.Name = "mcvyoSelectionLabel";
             this.mcvyoSelectionLabel.Size = new System.Drawing.Size(105, 13);
             this.mcvyoSelectionLabel.TabIndex = 4;
@@ -153,7 +154,7 @@
             // 
             this.directAthleticsSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.directAthleticsSelectionLabel.AutoSize = true;
-            this.directAthleticsSelectionLabel.Location = new System.Drawing.Point(268, 101);
+            this.directAthleticsSelectionLabel.Location = new System.Drawing.Point(180, 58);
             this.directAthleticsSelectionLabel.Name = "directAthleticsSelectionLabel";
             this.directAthleticsSelectionLabel.Size = new System.Drawing.Size(105, 13);
             this.directAthleticsSelectionLabel.TabIndex = 5;
@@ -163,7 +164,7 @@
             // 
             this.outptuFolderSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.outptuFolderSelectionLabel.AutoSize = true;
-            this.outptuFolderSelectionLabel.Location = new System.Drawing.Point(268, 173);
+            this.outptuFolderSelectionLabel.Location = new System.Drawing.Point(180, 101);
             this.outptuFolderSelectionLabel.Name = "outptuFolderSelectionLabel";
             this.outptuFolderSelectionLabel.Size = new System.Drawing.Size(105, 13);
             this.outptuFolderSelectionLabel.TabIndex = 6;
@@ -172,21 +173,22 @@
             // outptuFileNameTextBox
             // 
             this.outptuFileNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.outptuFileNameTextBox.Location = new System.Drawing.Point(268, 243);
+            this.outptuFileNameTextBox.Location = new System.Drawing.Point(180, 141);
             this.outptuFileNameTextBox.Name = "outptuFileNameTextBox";
             this.outptuFileNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.outptuFileNameTextBox.TabIndex = 7;
             this.outptuFileNameTextBox.Text = "Output file name...";
             // 
-            // Form1
+            // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tabControl1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.tabControl1.ResumeLayout(false);
+            this.ClientSize = new System.Drawing.Size(397, 233);
+            this.Controls.Add(this.tabControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "MainScreen";
+            this.Text = "BibMyRoster by Andrew Apy";
+            this.tabControl.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
@@ -196,7 +198,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tabControl;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
