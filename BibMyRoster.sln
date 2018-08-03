@@ -5,6 +5,19 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibMyRoster", "BibMyRoster\BibMyRoster.csproj", "{2362EC6B-BE43-4535-9AF9-9878E838F3EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DFFDF247-8B2A-4458-98E7-008E893CDF02}"
+	ProjectSection(SolutionItems) = preProject
+		BibMyRoster\bin\Debug\BibMyRoster.exe = BibMyRoster\bin\Debug\BibMyRoster.exe
+		BibMyRoster\bin\Debug\BibMyRoster.exe.config = BibMyRoster\bin\Debug\BibMyRoster.exe.config
+		BibMyRoster\bin\Debug\BibMyRoster.pdb = BibMyRoster\bin\Debug\BibMyRoster.pdb
+		BibMyRoster\bin\Debug\DynamicInterop.dll = BibMyRoster\bin\Debug\DynamicInterop.dll
+		BibMyRoster\bin\Debug\DynamicInterop.xml = BibMyRoster\bin\Debug\DynamicInterop.xml
+		BibMyRoster\bin\Debug\RDotNet.dll = BibMyRoster\bin\Debug\RDotNet.dll
+		BibMyRoster\bin\Debug\RDotNet.NativeLibrary.dll = BibMyRoster\bin\Debug\RDotNet.NativeLibrary.dll
+		BibMyRoster\bin\Debug\RDotNet.NativeLibrary.xml = BibMyRoster\bin\Debug\RDotNet.NativeLibrary.xml
+		BibMyRoster\bin\Debug\RDotNet.xml = BibMyRoster\bin\Debug\RDotNet.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
