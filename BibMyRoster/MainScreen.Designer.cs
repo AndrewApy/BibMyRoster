@@ -119,6 +119,7 @@
             this.mcvyoSelectionButton.TabIndex = 0;
             this.mcvyoSelectionButton.Text = "Select mcvyo csv export";
             this.mcvyoSelectionButton.UseVisualStyleBackColor = true;
+            this.mcvyoSelectionButton.Click += new System.EventHandler(this.mcvyoSelectionButton_Click);
             // 
             // directAthleticsSelectionButton
             // 
@@ -129,6 +130,7 @@
             this.directAthleticsSelectionButton.TabIndex = 1;
             this.directAthleticsSelectionButton.Text = "Select DirectAthleticsButton";
             this.directAthleticsSelectionButton.UseVisualStyleBackColor = true;
+            this.directAthleticsSelectionButton.Click += new System.EventHandler(this.directAthleticsSelectionButton_Click);
             // 
             // outputFolderSelectionButton
             // 
@@ -139,6 +141,7 @@
             this.outputFolderSelectionButton.TabIndex = 2;
             this.outputFolderSelectionButton.Text = "Select output folder";
             this.outputFolderSelectionButton.UseVisualStyleBackColor = true;
+            this.outputFolderSelectionButton.Click += new System.EventHandler(this.outputFolderSelectionButton_Click);
             // 
             // mergeButton
             // 
