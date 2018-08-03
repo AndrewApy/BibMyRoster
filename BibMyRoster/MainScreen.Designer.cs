@@ -51,12 +51,15 @@
             // 
             // tabControl
             // 
+            this.tabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl.Controls.Add(this.tabPage1);
             this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Location = new System.Drawing.Point(13, 13);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(505, 307);
+            this.tabControl.Size = new System.Drawing.Size(340, 189);
             this.tabControl.TabIndex = 0;
             // 
             // tabPage1
@@ -75,14 +78,16 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(497, 281);
+            this.tabPage2.Size = new System.Drawing.Size(332, 163);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "mcvyo and DirectAthletics Merge";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -102,15 +107,15 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(354, 116);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(320, 151);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // mcvyoSelectionButton
             // 
             this.mcvyoSelectionButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.mcvyoSelectionButton.Location = new System.Drawing.Point(3, 3);
+            this.mcvyoSelectionButton.Location = new System.Drawing.Point(3, 7);
             this.mcvyoSelectionButton.Name = "mcvyoSelectionButton";
-            this.mcvyoSelectionButton.Size = new System.Drawing.Size(171, 23);
+            this.mcvyoSelectionButton.Size = new System.Drawing.Size(154, 23);
             this.mcvyoSelectionButton.TabIndex = 0;
             this.mcvyoSelectionButton.Text = "Select mcvyo csv export";
             this.mcvyoSelectionButton.UseVisualStyleBackColor = true;
@@ -118,9 +123,9 @@
             // directAthleticsSelectionButton
             // 
             this.directAthleticsSelectionButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.directAthleticsSelectionButton.Location = new System.Drawing.Point(3, 32);
+            this.directAthleticsSelectionButton.Location = new System.Drawing.Point(3, 44);
             this.directAthleticsSelectionButton.Name = "directAthleticsSelectionButton";
-            this.directAthleticsSelectionButton.Size = new System.Drawing.Size(171, 23);
+            this.directAthleticsSelectionButton.Size = new System.Drawing.Size(154, 23);
             this.directAthleticsSelectionButton.TabIndex = 1;
             this.directAthleticsSelectionButton.Text = "Select DirectAthleticsButton";
             this.directAthleticsSelectionButton.UseVisualStyleBackColor = true;
@@ -128,9 +133,9 @@
             // outputFolderSelectionButton
             // 
             this.outputFolderSelectionButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.outputFolderSelectionButton.Location = new System.Drawing.Point(3, 61);
+            this.outputFolderSelectionButton.Location = new System.Drawing.Point(3, 81);
             this.outputFolderSelectionButton.Name = "outputFolderSelectionButton";
-            this.outputFolderSelectionButton.Size = new System.Drawing.Size(171, 23);
+            this.outputFolderSelectionButton.Size = new System.Drawing.Size(154, 23);
             this.outputFolderSelectionButton.TabIndex = 2;
             this.outputFolderSelectionButton.Text = "Select output folder";
             this.outputFolderSelectionButton.UseVisualStyleBackColor = true;
@@ -138,9 +143,9 @@
             // mergeButton
             // 
             this.mergeButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.mergeButton.Location = new System.Drawing.Point(180, 90);
+            this.mergeButton.Location = new System.Drawing.Point(163, 119);
             this.mergeButton.Name = "mergeButton";
-            this.mergeButton.Size = new System.Drawing.Size(171, 23);
+            this.mergeButton.Size = new System.Drawing.Size(154, 23);
             this.mergeButton.TabIndex = 3;
             this.mergeButton.Text = "Merge!";
             this.mergeButton.UseVisualStyleBackColor = true;
@@ -149,7 +154,7 @@
             // 
             this.mcvyoSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.mcvyoSelectionLabel.AutoSize = true;
-            this.mcvyoSelectionLabel.Location = new System.Drawing.Point(180, 8);
+            this.mcvyoSelectionLabel.Location = new System.Drawing.Point(163, 12);
             this.mcvyoSelectionLabel.Name = "mcvyoSelectionLabel";
             this.mcvyoSelectionLabel.Size = new System.Drawing.Size(105, 13);
             this.mcvyoSelectionLabel.TabIndex = 4;
@@ -159,7 +164,7 @@
             // 
             this.directAthleticsSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.directAthleticsSelectionLabel.AutoSize = true;
-            this.directAthleticsSelectionLabel.Location = new System.Drawing.Point(180, 37);
+            this.directAthleticsSelectionLabel.Location = new System.Drawing.Point(163, 49);
             this.directAthleticsSelectionLabel.Name = "directAthleticsSelectionLabel";
             this.directAthleticsSelectionLabel.Size = new System.Drawing.Size(105, 13);
             this.directAthleticsSelectionLabel.TabIndex = 5;
@@ -169,7 +174,7 @@
             // 
             this.outptuFolderSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.outptuFolderSelectionLabel.AutoSize = true;
-            this.outptuFolderSelectionLabel.Location = new System.Drawing.Point(180, 66);
+            this.outptuFolderSelectionLabel.Location = new System.Drawing.Point(163, 86);
             this.outptuFolderSelectionLabel.Name = "outptuFolderSelectionLabel";
             this.outptuFolderSelectionLabel.Size = new System.Drawing.Size(105, 13);
             this.outptuFolderSelectionLabel.TabIndex = 6;
@@ -178,7 +183,7 @@
             // outptuFileNameTextBox
             // 
             this.outptuFileNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.outptuFileNameTextBox.Location = new System.Drawing.Point(3, 91);
+            this.outptuFileNameTextBox.Location = new System.Drawing.Point(3, 121);
             this.outptuFileNameTextBox.Name = "outptuFileNameTextBox";
             this.outptuFileNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.outptuFileNameTextBox.TabIndex = 7;
@@ -196,14 +201,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(530, 332);
+            this.ClientSize = new System.Drawing.Size(365, 214);
             this.Controls.Add(this.tabControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(381, 253);
             this.Name = "MainScreen";
             this.Text = "BibMyRoster by Andrew Apy";
             this.tabControl.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
