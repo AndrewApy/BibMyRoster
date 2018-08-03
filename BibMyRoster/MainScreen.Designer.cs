@@ -39,8 +39,8 @@
             this.mergeButton = new System.Windows.Forms.Button();
             this.mcvyoSelectionLabel = new System.Windows.Forms.Label();
             this.directAthleticsSelectionLabel = new System.Windows.Forms.Label();
-            this.outptuFolderSelectionLabel = new System.Windows.Forms.Label();
-            this.outptuFileNameTextBox = new System.Windows.Forms.TextBox();
+            this.outputFolderSelectionLabel = new System.Windows.Forms.Label();
+            this.outputFileNameTextBox = new System.Windows.Forms.TextBox();
             this.outputFolderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.mcvyoFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.directAthleticsFileDialog = new System.Windows.Forms.OpenFileDialog();
@@ -97,9 +97,9 @@
             this.tableLayoutPanel1.Controls.Add(this.outputFolderSelectionButton, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.mcvyoSelectionLabel, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.directAthleticsSelectionLabel, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.outptuFolderSelectionLabel, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.outputFolderSelectionLabel, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.mergeButton, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.outptuFileNameTextBox, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.outputFileNameTextBox, 0, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(6, 6);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
@@ -173,24 +173,24 @@
             this.directAthleticsSelectionLabel.TabIndex = 5;
             this.directAthleticsSelectionLabel.Text = "You have selected...";
             // 
-            // outptuFolderSelectionLabel
+            // outputFolderSelectionLabel
             // 
-            this.outptuFolderSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.outptuFolderSelectionLabel.AutoSize = true;
-            this.outptuFolderSelectionLabel.Location = new System.Drawing.Point(163, 86);
-            this.outptuFolderSelectionLabel.Name = "outptuFolderSelectionLabel";
-            this.outptuFolderSelectionLabel.Size = new System.Drawing.Size(105, 13);
-            this.outptuFolderSelectionLabel.TabIndex = 6;
-            this.outptuFolderSelectionLabel.Text = "You have selected...";
+            this.outputFolderSelectionLabel.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.outputFolderSelectionLabel.AutoSize = true;
+            this.outputFolderSelectionLabel.Location = new System.Drawing.Point(163, 86);
+            this.outputFolderSelectionLabel.Name = "outputFolderSelectionLabel";
+            this.outputFolderSelectionLabel.Size = new System.Drawing.Size(105, 13);
+            this.outputFolderSelectionLabel.TabIndex = 6;
+            this.outputFolderSelectionLabel.Text = "You have selected...";
             // 
-            // outptuFileNameTextBox
+            // outputFileNameTextBox
             // 
-            this.outptuFileNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.outptuFileNameTextBox.Location = new System.Drawing.Point(3, 121);
-            this.outptuFileNameTextBox.Name = "outptuFileNameTextBox";
-            this.outptuFileNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.outptuFileNameTextBox.TabIndex = 7;
-            this.outptuFileNameTextBox.Text = "Output file name...";
+            this.outputFileNameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.outputFileNameTextBox.Location = new System.Drawing.Point(3, 121);
+            this.outputFileNameTextBox.Name = "outputFileNameTextBox";
+            this.outputFileNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.outputFileNameTextBox.TabIndex = 7;
+            this.outputFileNameTextBox.Text = "Output file name...";
             // 
             // mcvyoFileDialog
             // 
@@ -230,8 +230,8 @@
         private System.Windows.Forms.Button mergeButton;
         private System.Windows.Forms.Label mcvyoSelectionLabel;
         private System.Windows.Forms.Label directAthleticsSelectionLabel;
-        private System.Windows.Forms.Label outptuFolderSelectionLabel;
-        private System.Windows.Forms.TextBox outptuFileNameTextBox;
+        private System.Windows.Forms.Label outputFolderSelectionLabel;
+        private System.Windows.Forms.TextBox outputFileNameTextBox;
         private System.Windows.Forms.FolderBrowserDialog outputFolderBrowserDialog;
         private System.Windows.Forms.OpenFileDialog mcvyoFileDialog;
         private System.Windows.Forms.OpenFileDialog directAthleticsFileDialog;

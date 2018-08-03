@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using RDotNet;
 
 namespace BibMyRoster
 {
@@ -46,8 +47,13 @@ namespace BibMyRoster
             if (outputFolder.ShowDialog() == DialogResult.OK)
             {
                 string outputFolderPath = outputFolder.SelectedPath;
-                outptuFolderSelectionLabel.Text = outputFolder.SelectedPath;
+                outputFolderSelectionLabel.Text = outputFolder.SelectedPath;
             }
+        }
+
+        private void outputFileNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+            string outputName = outputFileNameTextBox.Text;
         }
     }
 }
